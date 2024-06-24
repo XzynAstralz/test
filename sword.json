@@ -1,0 +1,31 @@
+{
+  "weapons": [
+    { "name": "rageblade", "meta": 100 },
+    { "name": "emerald_sword", "meta": 99 },
+    { "name": "deathbloom", "meta": 99 },
+    { "name": "glitch_void_sword", "meta": 98 },
+    { "name": "sky_scythe", "meta": 98 },
+    { "name": "diamond_sword", "meta": 97 },
+    { "name": "iron_sword", "meta": 96 },
+    { "name": "stone_sword", "meta": 95 },
+    { "name": "wood_sword", "meta": 94 },
+    { "name": "emerald_dao", "meta": 93 },
+    { "name": "diamond_dao", "meta": 99 },
+    { "name": "diamond_dagger", "meta": 99 },
+    { "name": "diamond_great_hammer", "meta": 99 },
+    { "name": "diamond_scythe", "meta": 99 },
+    { "name": "iron_dao", "meta": 97 },
+    { "name": "iron_scythe", "meta": 97 },
+    { "name": "iron_dagger", "meta": 97 },
+    { "name": "iron_great_hammer", "meta": 97 },
+    { "name": "stone_dao", "meta": 96 },
+    { "name": "stone_dagger", "meta": 96 },
+    { "name": "stone_great_hammer", "meta": 96 },
+    { "name": "stone_scythe", "meta": 96 },
+    { "name": "wood_dao", "meta": 95 },
+    { "name": "wood_scythe", "meta": 95 },
+    { "name": "wood_great_hammer", "meta": 95 },
+    { "name": "wood_dagger", "meta": 95 },
+    { "name": "frosty_hammer", "meta": 1 }
+  ]
+}
