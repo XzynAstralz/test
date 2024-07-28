@@ -3141,17 +3141,19 @@ for _, TopbarButton in ipairs(Topbar:GetChildren()) do
 	end
 end
 
-
+local configurationLoaded = false
 function RayfieldLibrary:LoadConfiguration()
-	if CEnabled then
+	if not configurationLoaded and CEnabled then
 		pcall(function()
 			if isfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension) then
 				LoadConfiguration(readfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension))
 				RayfieldLibrary:Notify({Title = "Configuration Loaded", Content = "The configuration file for this script has been loaded from a previous session"})
+				configurationLoaded = true
 			end
 		end)
 	end
 end
+
 task.delay(9, RayfieldLibrary.LoadConfiguration, RayfieldLibrary)
 
 return RayfieldLibrary
